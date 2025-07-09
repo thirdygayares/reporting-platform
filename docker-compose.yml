@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  web:
+    build: .
+    container_name: reporting-platform-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - ~/.aws:/home/myuser/.aws
+    env_file:
+      - .env
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge
