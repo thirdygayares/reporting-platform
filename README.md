@@ -27,6 +27,20 @@ A sample Power BI report (`.pbit`) is provided to visualize and interact with th
 
 **ONGOING DOCUMENTATION**  
 
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/8e917857-3c51-4aae-841b-10c8f5cb7d04" />
+
+### 1. add .env to the root file 
+```
+META_ACCESS_TOKEN= {Get from meta app}
+AD_ACCOUNT_ID= {Get from meta app}
+SERVICE_ACCOUNT_FILE= {ex.thirdygayares2-21175b35d9f4.json get from google console and allowed google analytics API and google search console API} 
+```
+### 2. add SERVICE_ACCOUNT_FILE to the root file 
+
+---
+
+
+
 
 ## POWERBI Visual Demonstration
 
